@@ -32,7 +32,7 @@ function About() {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href:"",
+      href:"resume link",
       style:'rounded-br-md',
       download:true,
     },
