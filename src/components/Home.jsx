@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from 'react'
-import HeroImage from '../assets/heroImage.png'
+import HeroImage from '../assets/heroImage.jpg'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
 
@@ -52,11 +52,11 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            {/* <div>
+            <div>
                 <img src={HeroImage} 
                     alt="my profile" 
                     className='rounded-2xl w-64 mx-auto w-80 max-md:w-52 max-w-[700px]' />
-            </div> */}
+            </div>
         </div>
     </div>
   )
